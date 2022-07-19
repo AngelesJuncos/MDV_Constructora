@@ -27,13 +27,6 @@ footer ol, footer ul {
 	padding: 1em 0;
 }
 
-//PREGUNTAR! si pongo el svg dentro de la etiqueta <img>, luego desde el css, puedo cambiar los atributos width y height pero no así el fill
-// @each $icon in facebook, instagram {
-// 	img[src="images/icons/icon-#{$icon}.svg"]{
-// 			@include icon (32px, 32px, map-get($colores, azul));		
-// 	}
-// }
-
 footer svg{
 	@include icon (32px, 32px, map-get($colores, azul));
 }
