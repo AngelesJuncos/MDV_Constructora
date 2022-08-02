@@ -1,5 +1,6 @@
 h1{
 	@extend .titulos;
+	text-shadow: 0 0 2px map-get($colores, azul);
 }
 
 //Página Quienes Somos
