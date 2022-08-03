@@ -246,6 +246,10 @@ section.card {
   background-color: rgba(4, 28, 50, 0.7);
   border: #041c32 1px solid; }
 
+form a {
+  text-decoration: none;
+  /*list-style: none;*/ }
+
 input.button:hover {
   color: #ecb365; }
 

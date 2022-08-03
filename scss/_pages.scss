@@ -57,7 +57,12 @@ section.card{
 .button{
 	color: map-get($colores, blanco);
 	background-color: map-get($colores, azul70);
-	border: map-get($colores, azul) 1px solid;	
+	border: map-get($colores, azul) 1px solid;
+}
+
+form a {
+	text-decoration: none;
+	/*list-style: none;*/
 }
 
 input.button:hover {
