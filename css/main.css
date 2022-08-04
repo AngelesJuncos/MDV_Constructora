@@ -226,6 +226,14 @@ section.card {
   font-size: 1.4em;
   font-weight: 400; }
 
+@media (min-width: 576px) {
+  div.accordion {
+    width: 75%; } }
+
+@media (min-width: 992px) {
+  div.accordion {
+    width: 50%; } }
+
 div.accordion-item, button.accordion-button {
   background-color: rgba(4, 28, 50, 0.7); }
 

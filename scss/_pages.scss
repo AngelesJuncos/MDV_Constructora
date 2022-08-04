@@ -36,6 +36,15 @@ section.card{
 }
 
 //Página Servicios
+div.accordion {
+	@media (min-width:576px) {
+		width: 75%;
+	}
+	@media (min-width:992px) {
+		width: 50%;
+	}
+}
+
 div.accordion-item, button.accordion-button {
 	background-color: map-get($colores, azul70);
 }
