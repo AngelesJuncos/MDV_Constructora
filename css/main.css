@@ -226,13 +226,15 @@ section.card {
   font-size: 1.4em;
   font-weight: 400; }
 
+div.accordion-item, button.accordion-button {
+  background-color: rgba(4, 28, 50, 0.7); }
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(0, 0, 0, 0) !important; }
+
 .titulosServicios {
   list-style: none;
-  font-weight: 300;
-  background-color: rgba(4, 28, 50, 0.7);
-  padding: 1em;
-  height: auto;
-  line-height: 1.5em; }
+  font-weight: 300; }
 
 .form {
   padding: 1em;

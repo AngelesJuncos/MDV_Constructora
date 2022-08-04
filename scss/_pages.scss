@@ -36,13 +36,17 @@ section.card{
 }
 
 //Página Servicios
+div.accordion-item, button.accordion-button {
+	background-color: map-get($colores, azul70);
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: map-get($colores, transparente)!important;
+}
+
 .titulosServicios{
 	list-style: none;
 	font-weight: $weight300;
-	background-color: map-get($colores, azul70);
-	padding: 1em;
-	height: auto;
-	line-height: 1.5em;
 }
 
 //Página Contacto
