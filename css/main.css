@@ -4,6 +4,9 @@
   color: white;
   box-sizing: border-box; }
 
+body.index {
+  background-color: #041c32; }
+
 body {
   background-image: url(../images/obras/background.webp);
   background-size: cover;
@@ -45,7 +48,7 @@ body {
 
 .navbar {
   padding-top: 3em;
-  padding-bottom: 1em; }
+  padding-bottom: 3em; }
 
 #mainLogo {
   font-size: 0.6em;
@@ -54,7 +57,10 @@ body {
   padding-top: 3em; }
   #mainLogo p {
     padding-top: 1em;
-    font-weight: 600; }
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7); }
+    #mainLogo p:hover {
+      color: white; }
 
 @media only screen and (min-width: 992px) {
   .start-0 {
@@ -187,7 +193,7 @@ footer ol, footer ul {
 footer svg {
   width: 32px;
   height: 32px;
-  fill: #041c32; }
+  fill: #ecb365; }
 
 div.copyright {
   text-align: center;

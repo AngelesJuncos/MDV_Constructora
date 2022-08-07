@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body.index{
+	background-color: map-get($colores, azul);
+}
+
 body{
 	background-image: url(../images/obras/background.webp);
 	background-size: cover;

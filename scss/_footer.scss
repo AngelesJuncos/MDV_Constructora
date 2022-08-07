@@ -28,7 +28,7 @@ footer ol, footer ul {
 }
 
 footer svg{
-	@include icon (32px, 32px, map-get($colores, azul));
+	@include icon (32px, 32px, map-get($colores, amarillo));
 }
 
 div.copyright {

@@ -17,14 +17,14 @@
 	}
 	@media (min-width: 992px) {
 		&:hover {
-		color: map-get($colores, blanco);
+			color: map-get($colores, blanco);
 		}
 	}
 }
 
 .navbar {
     padding-top: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 }
 
 #mainLogo{
@@ -35,6 +35,10 @@
 	p{
 		padding-top: 1em;
 		font-weight: $weight600;
+		color: map-get($colores, blanco70);
+		&:hover {
+			color: map-get($colores, blanco);
+		}
 	}
 }
 
