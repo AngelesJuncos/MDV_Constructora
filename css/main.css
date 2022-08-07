@@ -22,7 +22,7 @@ body {
 .titulos, .h2Home, h1 {
   font-size: 3.5em;
   font-weight: 400;
-  color: red;
+  color: #ecb365;
   text-align: center; }
 
 .navbar-light .navbar-toggler-icon {
@@ -81,7 +81,7 @@ video {
 
 .construccion {
   text-align: center;
-  color: red;
+  color: #ecb365;
   font-size: 2em;
   font-weight: 800;
   letter-spacing: .1em;
@@ -131,19 +131,19 @@ article.contenedor {
   left: 50%;
   transform: translate(-50%, -50%); }
   .textoEncimaCentrado h3 {
-    color: red;
+    color: #ecb365;
     font-size: 1.8em;
     line-height: 2.3em;
     margin-bottom: 1em; }
   .textoEncimaCentrado a {
-    color: red;
+    color: #ecb365;
     font-size: 1em;
     text-decoration: none;
     padding: 0.8em 1.5em;
-    border: solid red 1px; }
+    border: solid #ecb365 1px; }
     .textoEncimaCentrado a:hover {
       color: #041c32;
-      background-color: red; }
+      background-color: #ecb365; }
 
 .icon-maps {
   list-style-image: url("../images/icons/icon-maps.png"); }
@@ -261,10 +261,10 @@ form a {
   /*list-style: none;*/ }
 
 input.button:hover {
-  color: red; }
+  color: #ecb365; }
 
 fieldset.form h2 {
-  color: red;
+  color: #ecb365;
   font-weight: 400; }
 
 fieldset.form h3 {
