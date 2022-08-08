@@ -55,6 +55,12 @@ video{
 	line-height: 1.5em;
 }
 
+//Sección que hacemos? obras civiles
+ul[class="col-md-7 col-lg-6 my-auto ps-5"] li a{
+	text-decoration: none;
+	color: map-get($colores,blanco);
+}
+
 //Sección Obras
 article.contenedor{
 	position: relative;

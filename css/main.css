@@ -122,6 +122,10 @@ video {
   font-weight: 300;
   line-height: 1.5em; }
 
+ul[class="col-md-7 col-lg-6 my-auto ps-5"] li a {
+  text-decoration: none;
+  color: white; }
+
 article.contenedor {
   position: relative;
   height: 80vh;
