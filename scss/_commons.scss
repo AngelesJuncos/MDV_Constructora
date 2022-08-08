@@ -26,8 +26,11 @@ body{
 }
 
 .titulos {
-	@include font (3.5em, $weight400);
+	@include font (2em, $weight400);
 	color: map-get($colores, amarillo);
 	text-align: center;
+	@media (min-width: 576px) {
+		font-size: 3.5em;
+	}
 }
 
