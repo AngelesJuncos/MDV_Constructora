@@ -56,7 +56,6 @@
 @media only screen and (min-width: 992px) {
 	nav a.rounded-pill {
 		border: map-get($colores, blanco70) 2px solid;
-		/*background-color: map-get($colores, azul50);*/
 		&:hover {
 			border: map-get($colores, blanco) 2px solid;
 		}

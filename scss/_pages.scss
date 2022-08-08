@@ -12,14 +12,6 @@ h1{
     max-width: 450px;
 }
 
-/*.iframeQuienesSomos{
-	width: 280px;
-	max-width: 100vw;
-	@media (min-width:576px) {
-		width: 450px;
-	}
-}*/
-
 .iframeQuienesSomos {
 	width: 450px;
 	max-width: 100%;
@@ -27,7 +19,6 @@ h1{
 		width: 450px;
 	}
 }
-
 
 //Página Obras
 section.card{
@@ -83,7 +74,6 @@ div.accordion-item, button.accordion-button {
 
 form a {
 	text-decoration: none;
-	/*list-style: none;*/
 }
 
 input.button:hover {
