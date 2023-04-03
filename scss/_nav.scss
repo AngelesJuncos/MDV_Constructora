@@ -28,6 +28,9 @@
 }
 
 #mainLogo{
+	img{
+		width: 120px;
+	}
 	font-size: 0.6em;
 	border: none;
 	background-color: map-get($colores, transparente);
